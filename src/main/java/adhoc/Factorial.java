@@ -16,9 +16,9 @@ public class Factorial {
 	}
 
 	private static int getFactorial(int val) {
-		int result=0;
-		if(val>1) {
-			result=val*getFactorial(val-1);
+                int result=0;
+		if(val!=0) {
+			result=(val*getFactorial(val-1));
 		}
 		return result;
 	}
