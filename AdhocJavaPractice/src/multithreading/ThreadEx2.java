@@ -11,6 +11,7 @@ public class ThreadEx2 implements Runnable{
 		Runnable runnable = new ThreadEx2();
 		Thread t2 = new Thread(runnable);
 		t2.start();
+		System.out.println(Thread.currentThread().getName());
 	}
 
 }
