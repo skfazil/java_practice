@@ -8,6 +8,11 @@ public class MainTest {
 		sll.pop();
 		
 		sll.push(100);
+		sll.push(200);
+		sll.push(300);
+		sll.push(400);
+		sll.push(500);
+		sll.push(600);
 		
 		sll.pop();
 		sll.pop();
